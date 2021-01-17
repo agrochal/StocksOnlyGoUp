@@ -58,7 +58,7 @@ am4core.ready(function() {
     const monthNames = ["January", "February", "March", "April", "May", "June",
       "July", "August", "September", "October", "November", "December"
     ];
-    //console.log("Start: " + start.getDate() + " " + monthNames[start.getMonth()] + " " + start.getFullYear());
+    
     let new_start = start;
     let new_end = end;
 
@@ -77,6 +77,7 @@ am4core.ready(function() {
     }
 
     document.querySelector("#startDate").textContent = start.getDate() + " " + monthNames[start.getMonth()] + " " + start.getFullYear();
+    document.querySelector("#endDate").textContent = end.getDate() + " " + monthNames[end.getMonth()] + " " + end.getFullYear();
     getChange(formatDate(new_start), formatDate(new_end)).then(value => {
         document.querySelector("#stockChange").textContent = value;
     })
