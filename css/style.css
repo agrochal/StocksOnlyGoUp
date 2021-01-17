@@ -1,0 +1,47 @@
+body {
+  background-color: #232323;
+  color: #ededed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#chartdiv {
+  width: 85%;
+  margin: auto;
+  height: 370px;
+}
+
+h1 {
+  color: #ededed;
+  padding: 7px 4px 7px 4px;
+  font-size: 53px;
+  text-align: center;
+}
+
+h1 span, h2 span {
+  color: #00ff47;
+}
+
+h2 {
+  color: #ededed;
+  text-align: center;
+  padding: 3px 4px 3px 4px;
+  font-size: 33px;
+}
+
+#dropbase {
+  opacity: 0.3;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  font-size: 16px;
+  top: 0;
+  right: 7px;
+}
+
+#dropbase img {
+  height: 25px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
